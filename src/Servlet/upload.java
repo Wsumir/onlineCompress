@@ -77,7 +77,6 @@ public class upload extends HttpServlet {
         }catch (Exception e)
         {
             System.out.println("upload—Servlet有误");
-            System.out.println("-------");
         }
         if(result==1)  //上传成功
         {
