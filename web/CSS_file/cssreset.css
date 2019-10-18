@@ -1,0 +1,173 @@
+/* 
+* @Author: Marte
+* @Date:   2017-05-09 13:41:26
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-17 14:39:44
+*/
+html {
+  overflow-x: auto;
+  overflow-y: scroll;
+  line-height: 1;
+}
+a{
+  text-decoration: none;
+}
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  color: #202127;
+  font-weight: 400;
+}
+body {
+  background-color: #ffffff;
+  color: #696B71;
+  font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+select {
+  font-size: 14px;
+}
+table {
+  border-collapse: collapse;
+}
+fieldset,
+img {
+  border: 0 none;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+fieldset p {
+  margin: 0;
+  padding: 0 0 0 8px;
+}
+legend {
+  display: none;
+}
+address,
+caption,
+em,
+strong,
+th,
+i {
+  font-style: normal;
+  font-weight: 400;
+}
+table caption {
+  margin-left: -1px;
+}
+hr {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #e4e4e4;
+  border-width: 1px 0;
+  clear: both;
+  height: 2px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+ol,
+ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+caption,
+th {
+  text-align: left;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: ””;
+}
+input{
+  outline: 0 none;
+}
+/*清除浮动*/
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.middle{
+  vertical-align: middle;
+}
+@media (min-width: 320px) and (max-width: 1199px) {
+  .content {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+}
+
+/*按钮三态*/
+.blue-btn{
+  background: #2b7ff2;
+  cursor: pointer;
+}
+.blue-btn:hover{
+  background: #3B8EFF!important;
+}
+.blue-btn:active{
+  background: #2B7FF2!important;
+}
+.grey-btn{
+  width: 134px;
+  height: 40px;
+  border: 1px solid #D5D5D5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 38px;
+  text-align: center;
+  color: #575964;
+  margin-bottom: 0;
+}
+.grey-btn:hover{
+
+}
