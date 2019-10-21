@@ -33,9 +33,9 @@ public class startCompress extends HttpServlet {
 
         if(b1)  //压缩成功
         {
-            response.sendRedirect("compressSuccess.html");
+            response.sendRedirect("/HTML/compressSuccess.html");
         }else {
-            response.sendRedirect("compressFail.html");
+            response.sendRedirect("/HTML/compressFail.html");
         }
 
     }

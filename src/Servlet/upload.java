@@ -80,9 +80,9 @@ public class upload extends HttpServlet {
         }
         if(result==1)  //上传成功
         {
-            response.sendRedirect("uploadSuccess.html");
+            response.sendRedirect("/HTML/uploadSuccess.html");
         }else {
-            response.sendRedirect("uploadFail.html");
+            response.sendRedirect("/HTML/uploadFail.html");
         }
 
     }
